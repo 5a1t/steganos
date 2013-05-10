@@ -5,6 +5,9 @@ steganos
 Internet Imgur spider using Outguess to detect steganography in the wild.
 
 
+Please report any interesting findings to author.
+
+
 ==========================================
 Current assumptions (automate/include later):
 
@@ -28,13 +31,35 @@ Current assumptions (automate/include later):
 
 
 
-TYPICAL RESULTS:
+Typical results:
 ===========================
+-Can scan about 150,000 images/day.  Confident this can be increased.
+
 -1.2% high confidence hits.  Virtually always from Outguess or JPhide.
+
 -Suspect most (all?) false positives.
+
 -Future work: attept to bruteforce passwords on high confidence hits.
+
 -Future work: add additional detection systems.
+
 -Future work: Onion crawling over Tor.
 
 
 Please report any interesting results. 
+
+
+
+
+Hits found in 5 day period:
+===========================
+
+
+The following imgur links have been detected to be high confidence positives by the stegdetect system.
+
+I am not responsible for the content of these images. They have been automatically generated.  Download and view at your own risk.
+
+Format: http://imgur.com/xxxxxxx.jpg
+
+List can now be found in imgur_results.txt
+
